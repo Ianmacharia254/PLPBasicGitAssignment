@@ -18,17 +18,17 @@ Open your terminal or command prompt:
 Navigate to your local project folder:
 
 bash
-Copy code
+
 cd /path/to/your/local/project/folder
 Initialize Git in the folder (if not already initialized):
 
 bash
-Copy code
+
 git init
 Add the GitHub repository as a remote:
 
 bash
-Copy code
+
 git remote add origin https://github.com/yourusername/MyProject.git
 Replace https://github.com/yourusername/MyProject.git with the URL you copied from GitHub.
 
@@ -37,19 +37,19 @@ Add files to the staging area:
 
 Suppose you have a new file index.html. Add it to Git's staging area.
 bash
-Copy code
+
 git add index.html
 Commit the changes:
 
 Commit the staged changes with a descriptive message.
 bash
-Copy code
+
 git commit -m "Initial commit: Added index.html"
 Push commits to GitHub:
 
 Push your committed changes to the remote repository (GitHub).
 bash
-Copy code
+
 git push -u origin master
 This command pushes your changes to the master branch. If you are using a different branch, replace master with the branch name.
 
@@ -57,19 +57,19 @@ Summary of Commands Used:
 Initialization and Remote Setup:
 
 bash
-Copy code
+
 git init
 git remote add origin https://github.com/yourusername/MyProject.git
 Adding and Committing Changes:
 
 bash
-Copy code
+
 git add <file(s)>
 git commit -m "Commit message"
 Pushing Changes to GitHub:
 
 bash
-Copy code
+
 git push -u origin master
 Notes:
 Ensure you have Git installed on your local machine and configured with your GitHub credentials.
